@@ -1,0 +1,25 @@
+{
+  "name": "crud-anecdotario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "firebase-admin": "^10.0.0",
+    "morgan": "^1.10.0",
+    "@firebase/database-compat":"0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "resolutions": {
+    "@firebase/database-compat": "0.1.2"
+  }
+}
